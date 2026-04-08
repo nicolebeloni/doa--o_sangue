@@ -1,0 +1,20 @@
+header {
+    text-align: center;
+    position: sticky;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(95, 13, 13);
+    color: aliceblue;
+}
+
+
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-size: cover;
+}
+
+div{
+    margin: 20px;
+}
