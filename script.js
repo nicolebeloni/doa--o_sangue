@@ -7,7 +7,7 @@ function formulario () {
     let telefone= document.getElementById("telefone").value;
     let cidade= document.getElementById("cidade").value;
     let estado= document.getElementById("estado").value;
-}
+
 
  if (nome.indexOf(" ") == -1) {
         alert("Informe nome e sobrenome!");
@@ -29,4 +29,41 @@ function formulario () {
         return;
     }
 
+
+    if (!email.includes("@") || !email.includes(".")) {
+        alert(" Por favor, informe um e-mail válido (exemplo@dominio.com)!");
+        document.getElementById("email").focus();
+        return false;
+    }
+
+     if (sanguineo === "") {
+        alert("Por favor, selecione seu tipo sanguíneo!");
+        return;
+    }
+
+    if (telefone === "") {
+        alert("Por favor, informe seu telefone!");
+        return;
+    }
+    
+    if (isNaN(telefone)) {
+        alert("Telefone deve ter apenas números!");
+        return;
+    }
+
+    if (cidade === "") {
+        alert("Por favor, informe sua cidade!");
+        return;
+    }
+
+
+    if (estado === "") {
+        alert("Por favor, informe seu estado!");
+        return;
+    }
+
+
     alert("Cadastro realizado com sucesso!");
+
+
+}
