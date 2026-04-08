@@ -1,18 +1,30 @@
 header {
+    
+
+    height: 400px;
+    background: url("assets/75760414-444f-41cd-b67f-5279c84c6821.jpg") no-repeat center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;     
+    justify-content: center; 
+
+
     text-align: center;
     position: sticky;
     border-radius: 50px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(95, 13, 13);
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
 }
 
 
 body {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
     background-size: cover;
+    background-color: rgb(255, 255, 255);
 }
 
 div{
