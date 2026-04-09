@@ -8,11 +8,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(135deg, #f5f5f5 0%, #fafafa 100%);
     min-height: 100vh;
+    background-image: url(assets/ChatGPT\ Image\ 9\ de\ abr.\ de\ 2026\,\ 09_58_42.png);
 }
 
 
 header {
-    height: 350px;
+    height: 450px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
                 url("assets/75760414-444f-41cd-b67f-5279c84c6821.jpg") no-repeat center;
     background-size: cover;
